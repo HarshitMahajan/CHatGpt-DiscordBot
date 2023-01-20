@@ -45,7 +45,7 @@ client.on('messageCreate', async function(message){
 });
 
 
-// log the bot to discord server
+// log the bot to discord server and it is not working
 client.login(process.env.DISCORD_TOKEN);
 console.log('ChatGpt Bot is running');
 
